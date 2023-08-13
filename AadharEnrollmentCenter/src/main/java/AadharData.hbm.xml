@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class
+		name="com.digit.javaTraining.aadharEnrollmentCenter.model.AadharData"
+		table="AadharData">
+
+		<id name="aadharNumber" column="aadharNumber"></id>
+
+		<property name="name">
+			<column name="name"></column>
+		</property>
+
+		<property name="email">
+			<column name="email"></column>
+		</property>
+
+		<property name="phoneNumber">
+			<column name="phoneNumber"></column>
+		</property>
+
+		<property name="addressLine">
+			<column name="addressLine"></column>
+		</property>
+
+		<property name="city">
+			<column name="city"></column>
+		</property>
+
+		<property name="state">
+			<column name="state"></column>
+		</property>
+
+		<property name="pinCode">
+			<column name="pinCode"></column>
+		</property>
+
+	</class>
+</hibernate-mapping>
